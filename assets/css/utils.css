@@ -1,5 +1,4 @@
 
-
 /* PROPRIETA' FLEX  */
 
 .d-flex{
@@ -10,3 +9,68 @@
   justify-content: center;
   align-items: center;
 }
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+/* ALTEZZE */
+
+.h100{
+  height: 100px;
+}
+
+/* WIDHT */
+
+.widht100{
+  width: 100%;
+}
+
+/* GENERAL */
+
+.inline-block{
+  display: inline-block;
+}
+
+
+
+
+/* HEADER */
+
+
+.fa-grid-vertical{
+  
+}
+
+
+/* MAIN */
+
+main{
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug{
+  background-color: rgba(204, 114, 72, 0.8);
+  border: 1px solid black;
+}
+
+
+
