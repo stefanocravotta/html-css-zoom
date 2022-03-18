@@ -5,19 +5,21 @@
 header .setting-vista{
 align-items: center;
 height: 35%;
+margin: 5px 0;
 }
 
 header .setting-vista .btn{
   background-color: rgb(65, 65, 65);
   padding: 5px;
   border-radius: 4px;
-  margin-right: 5px;
+  margin: 5px;
   color: white;
 }
 
 header .setting-vista .btn span{
   padding-left: 5px;
 }
+
 
 /* MAIN */
 
@@ -28,16 +30,57 @@ main .container{
   
 }
 
-
-
 main .image-box{
+  position: relative;
   width: 240px;
-  height: 140px;
-  background-image: url(https://i.redd.it/ax9c8oakm9f61.png);
+  height: 150px;
+  background-image: url(https://picsum.photos/200);
   background-size: cover;
   background-position: center;
+  border: 1px solid white;
   margin: 5px 0;
 }
 
-
+main .name{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4px 10px;
+  background-color: rgb(65, 65, 65, 0.6);
+  color: white;
+}
 /* FOOTER */
+
+footer{
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(31, 31, 31);
+}
+
+footer .item{
+  padding: 0 10px;
+}
+
+
+.footer-left{
+  width: 10%;
+  align-items: center;
+  text-align: center;
+  margin-left: 15px;
+}
+.footer-center{
+  width: 40%;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-right a{
+  text-decoration: none;
+  color: red;
+  padding: 0 15px;
+
+}
+.footer-right .button{
+  height: 100%;
+  background-color: rgb(65, 65, 65);
+}

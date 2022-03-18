@@ -18,10 +18,26 @@
   flex-wrap: wrap;
 }
 
+.direction-column{
+  flex-direction: column;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.items-flex-end{
+  align-items: flex-end
+}
+
+.shrink0{
+  flex-shrink: 0;
+}
+
 /* ALTEZZE */
 
 .h100{
-  height: 100px;
+  height: 80px;
 }
 
 /* WIDHT */
@@ -36,27 +52,36 @@
   display: inline-block;
 }
 
+ul{
+  list-style: none;
+}
 
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.fa-chevron-up{
+  font-size: .65rem;
+}
 
 
 /* HEADER */
 
 
-.fa-grid-vertical{
-  
-}
+
 
 
 /* MAIN */
 
 main{
-  height: calc(100vh - 200px);
+  height: calc(100vh - 160px);
   overflow-y: auto;
 }
 
 
 /* FOOTER */
-
 
 
 
